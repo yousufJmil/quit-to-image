@@ -1,0 +1,183 @@
+.main{
+	 display: flex;
+	 flex-wrap: wrap;
+}
+.box1{
+	  width:  200px;
+	  height: 80px;
+	  background-color: teal;
+	  margin-left: 20px;
+}
+.box2{
+	  width:  200px;
+	  height: 80px;
+	  background-color: orange;
+	  margin-left: 20px;
+}
+.box3{
+	  width:  200px;
+	  height: 80px;
+	  background-color: magenta;
+	  margin-left: 20px;
+}
+.box4{
+	  width:  200px;
+	  height: 80px;
+	  background-color: skyblue;
+	  margin-left: 20px;
+}
+.box5{
+	  width:  200px;
+	  height: 80px;
+	  background-color: tomato;
+	  margin-left: 20px;
+}
+.box6{
+	  width:  200px;
+	  height: 80px;
+	  background-color: black;
+	  margin-left: 20px;
+
+}
+.parent{
+		width: 1200px;
+		height: 700px;
+		background-color: green;
+		margin:100px auto;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		align-items: center;
+
+
+}
+.child{
+	   width: 350px;
+	   height: 350px;
+	   background-color: red;
+	   justify-content: center;
+	   border-radius: 50%;
+	   display: flex;
+	   justify-content: center;
+	   align-items: center;
+}
+.child img{
+			width: 200px;
+}
+.child:hover img{
+	     width: 200px;
+	     transform: rotate(180deg);
+	     transition: all liner 2s;
+	    
+}
+......../*menu start*/...........
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	list-style: none;
+	text-decoration: none;
+}
+.menu{
+	background-color: teal;
+	text-align: center;
+	
+}
+.menu ul{
+		display: inline-flex;
+
+
+}
+.menu ul li{
+			height: 50px;
+			width: 120px;
+			line-height: 50px;
+			position: relative;
+
+
+}
+.menu ul li a{
+				color:whitesmoke;
+				font-size: 20px;
+				font-style: bold;
+				display: block;
+				text-decoration: none;
+				margin-left: none;
+}
+}
+.menu ul li a:hover{
+					background-color: orange;
+}
+.menu ul li a:focus{
+					background-color: orange;
+}
+
+.product{
+			display: none;
+
+}
+
+.menu ul li:hover .product{
+							display: block ;
+							position: absolute;
+							top: 50px;
+							left: 0;
+
+
+}
+.menu ul li:hover .product ul{
+								display: block;
+								background-color: teal;
+
+}
+
+<!.,....... banner start.......... !> 
+
+
+.banner{
+margin: 0 auto;
+
+}
+.container2{
+	width: 60%;
+	margin: 0 auto;
+
+}
+.b_container{
+ text-align: center;
+
+}
+.b_container h1{
+	font-size: 45px;
+	font-weight: 700;
+	color:navy;
+	
+
+}
+.b_container h2{
+	font-size: 45px;
+	font-weight: 400;
+	color:navy;
+	
+}
+.b_container p{
+font-size: 16px;
+	font-weight: 400;
+	color:navy;
+	line-height: 23px;
+
+}
+
+.b_image{
+	margin: 0 auto;
+	width: 75%s;
+
+}
+.img{
+width: 100%;
+
+}
+<!.,....... banner end.......... !> 
+
+............/*menu end*/........
